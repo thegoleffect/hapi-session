@@ -1,12 +1,19 @@
 {
   "name": "hapi-session",
   "version": "0.0.1",
-  "description": "ERROR: No README.md file found!",
+  "description": "Session support for Hapijs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": "",
   "author": "Van Nguyen <thegoleffect@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "hapi": {
+    "plugin": "1.x.x"
+  },
+  "dependencies": {
+    "node-uuid": "~1.4.0",
+    "boom": "~0.3.1"
+  }
 }
